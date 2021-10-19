@@ -1,0 +1,1 @@
+n1 = float(input(('Digite 1° nota: ')))
