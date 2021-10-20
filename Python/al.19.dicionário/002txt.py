@@ -4,7 +4,7 @@ pessoas = {
     'idade':18,
 }
 print(f'\nO {pessoas["nome"]} tem {pessoas["idade"]} anos.\n')
-print(pessoas.keys(),'\n')
+print(pessoas.keys(),'\n') 
 
 for k in pessoas.keys():
     print(f'key: {k}')
