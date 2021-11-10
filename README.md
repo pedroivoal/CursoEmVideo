@@ -1,7 +1,6 @@
 ----
 # CursoEmVideo
 
-----
 Onde Guardo minhas resoluções das atividades do curso do Guanabara
 
 ----
