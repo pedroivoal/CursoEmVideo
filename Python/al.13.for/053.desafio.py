@@ -14,9 +14,6 @@ for i in range(len(frase)-1, -1, -1):
         s2[c2] = frase[i]
         c2 += 1
 
-print(s1)
-print(s2)
-
 if s1 == s2:
     print('Palindromo.')
 else:
