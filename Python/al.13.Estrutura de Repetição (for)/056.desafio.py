@@ -5,7 +5,8 @@ name_older_man = ''
 
 for i in range(0, 4):
 
-    name = input('\nDigite o nome: ').title()
+    print('\n----{}º PESSOA----'.format(i+1))
+    name = input('Digite o nome: ').title()
     age = int(input('Digite a idade: '))
     sex = input('Digite o sexo: ').lower()
 
@@ -20,4 +21,4 @@ for i in range(0, 4):
 
 print('\nMédia das idades: {}'.format(Sum/4))
 print('Homem mais velho: {}'.format(name_older_man))
-print('Numero de mulheres com menos de 20 anos: {}'.format(num_new_womam))
+print('Número de mulheres com menos de 20 anos: {}'.format(num_new_womam))

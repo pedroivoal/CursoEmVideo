@@ -1,11 +1,11 @@
-lower = -1
+lower = 0
 bigger = 0
 
 for i in range(0, 5):
 
-    weithg = float(input('Digite o peso: '))
+    weithg = float(input('Digite {}º peso: '.format(i+1)))
 
-    if lower == -1:
+    if i == 0:
         bigger = weithg
         lower = weithg
 
