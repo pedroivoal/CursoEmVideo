@@ -3,7 +3,7 @@ minority = 0
 
 for i in range(0, 7):
 
-    age = int(input('Digite sua idade: '))
+    age = int(input('Digite a idade: '))
 
     if age < 18:
         minority += 1
