@@ -1,4 +1,8 @@
 from colors import col
+answer_col = col['blue']
+error_col = col['red']
+end_col = col['green']
+clean = col['clean']
 
 n1 = float(input('Digite um número: '))
 n2 = float(input('Digite um número: '))
@@ -16,20 +20,20 @@ while True:
 
     if c == 1:
         r = n1 + n2
-        print('{3}{0} + {1} = {2}{4}'.format(n1, n2, r,col['blue'], col['clean']))
+        print('{3}{0} + {1} = {2}{4}'.format(n1, n2, r, answer_col, clean))
     elif c == 2:
         r = n1*n2
-        print('{3}{0} . {1} = {2}{4}'.format(n1, n2, r,col['blue'], col['clean']))
+        print('{3}{0} . {1} = {2}{4}'.format(n1, n2, r, answer_col, clean))
     elif c == 3:
         r = max(n1,n2)
-        print('{1}Maior número: {0}{2}'.format(r,col['blue'], col['clean']))
+        print('{1}Maior número: {0}{2}'.format(r,answer_col, clean))
     elif c == 4:
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite um número: '))
     elif c == 5:
-        print('{0}Fim do programa{1}\n'.format(col['green'], col['clean']))
+        print('{0}Fim do programa{1}\n'.format(end_col, clean))
         break
     else:
-        print('\n{0}Escolha um número entre 1 e 5.{1}\n'.format(col['red'], col['clean']))
+        print('\n{0}Escolha um número entre 1 e 5.{1}\n'.format(error_col, clean))
 
          

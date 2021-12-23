@@ -9,7 +9,6 @@ col = {
     'cyan': '\033[36m',
     'grey': '\033[37m'
 }
-# print(col['grey'])
 
 col_bold = {
     'clean': '\033[m',
