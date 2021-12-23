@@ -1,7 +1,7 @@
 ----
 # CursoEmVideo
 
-Onde Guardo minhas resoluções das atividades do curso do Guanabara
+Onde Guardo minhas resoluções das atividades dos cursos do Guanabara
 
 ----
 ## Cursos finalizados
