@@ -1,10 +1,11 @@
-from colors import col
-answer_col = col['blue']
-error_col = col['red']
-end_col = col['green']
-clean = col['clean']
+from colors import color
 
-n1 = float(input('Digite um número: '))
+answer_col = color['blue']
+error_col = color['red']
+end_col = color['green']
+clean = color['clean']
+
+n1 = float(input('\nDigite um número: '))
 n2 = float(input('Digite um número: '))
 c = 0
 

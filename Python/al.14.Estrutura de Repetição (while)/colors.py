@@ -1,4 +1,4 @@
-col = {
+color = {
     'clean': '\033[m',
     'black': '\033[30m',
     'red': '\033[31m',
@@ -10,7 +10,7 @@ col = {
     'grey': '\033[37m'
 }
 
-col_bold = {
+color_bold = {
     'clean': '\033[m',
     'grey': '\033[1;30m',
     'red': '\033[1;31m',
@@ -20,4 +20,16 @@ col_bold = {
     'purple': '\033[1;35m',
     'cyan': '\033[1;36m',
     'white': '\033[1;37m'
+}
+
+color_underline = {
+    'clean': '\033[m',
+    'black': '\033[4;30m',
+    'red': '\033[4;31m',
+    'green': '\033[4;32m',
+    'yellow': '\033[4;33m',
+    'blue': '\033[4;34m',
+    'purple': '\033[4;35m',
+    'cyan': '\033[4;36m',
+    'white': '\033[4;37m'
 }
