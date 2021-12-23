@@ -2,7 +2,7 @@ from colors import color
 
 answer_col = color['blue']
 error_col = color['red']
-end_col = color['green']
+end_col = color['purple']
 clean = color['clean']
 
 n1 = float(input('\nDigite um número: '))
@@ -32,7 +32,7 @@ while True:
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite um número: '))
     elif c == 5:
-        print('{0}Fim do programa{1}\n'.format(end_col, clean))
+        print('\n{0}Fim do programa{1}\n'.format(end_col, clean))
         break
     else:
         print('\n{0}Escolha um número entre 1 e 5.{1}\n'.format(error_col, clean))

@@ -3,6 +3,7 @@ from colors import color
 
 answer_col = color['blue']
 error_col = color['red']
+end_col = color['purple']
 clean = color['clean']
 
 print('\nAdvinhe o número sorteado (0 à 10)')

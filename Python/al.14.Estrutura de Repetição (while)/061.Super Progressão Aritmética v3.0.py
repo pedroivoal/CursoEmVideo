@@ -18,7 +18,29 @@ while i < 10:
 
     i += 1
 
-rp += ')'
+a1 = r*(i)+ a1
+rp += '...)'
 
 print('\n{1}{0}{2}\n'.format(rp, answer_col, clean))
+
+n = int(input('Digete quantos termos a mais deseja ver: '))
+
+while n != 0:
+
+    rp = '(...' + str(a1)
+
+    i = 1
+    while i < n:
+
+        rp += ', {}'.format(r*i+ a1)
+
+        i += 1
+
+    a1 = r*(i)+ a1
+    rp += '...)'
+
+    print('\n{1}{0}{2}\n'.format(rp, answer_col, clean))
+
+    n = int(input('Digete quantos termos a mais deseja ver: '))
+
 print('\n{0}Fim do programa{1}\n'.format(end_col, clean))
