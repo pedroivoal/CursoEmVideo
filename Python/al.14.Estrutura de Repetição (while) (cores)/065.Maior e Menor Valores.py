@@ -10,11 +10,10 @@ clean = color['clean']
 print('\n{}Digite vários números (inteiros){}\n'.format(title, clean))
 
 num = int(input())
-bigger = num
-lower = num
+bigger = lower = num
 c = 's'
-Sum = 0
-i = 0
+Sum = i = 0
+
 
 while c ==  's':
 
@@ -32,6 +31,6 @@ while c ==  's':
 
 med = Sum/i
 
-print('\n{1}Média dos valores digitados é {0}{2}'.format(med, answer_col, clean))
-print('{1}Maior valor digitados é {0}{2}'.format(bigger, answer_col, clean))
-print('{1}Menor valor digitados é {0}{2}\n'.format(lower, answer_col, clean))
+print('\n{2}Média dos {1} valores digitados é {0}{3}'.format(med, i, answer_col, clean))
+print('{1}Maior valor digitado é {0}{2}'.format(bigger, answer_col, clean))
+print('{1}Menor valor digitado é {0}{2}\n'.format(lower, answer_col, clean))

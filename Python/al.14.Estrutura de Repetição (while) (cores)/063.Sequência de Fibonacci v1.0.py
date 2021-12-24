@@ -11,7 +11,7 @@ print('\n{}Quantos números da Segquência de Fibonacci você deseja ver?{}\n'.f
 n = int(input('Digite um número: '))
 
 i = 0
-tn1 = 1
+tn1 = 0
 tn2 = 1
 sequence = '({}, {}'.format(tn1, tn2)
 while i < n-2:

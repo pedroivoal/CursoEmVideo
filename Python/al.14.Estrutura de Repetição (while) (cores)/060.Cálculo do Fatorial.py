@@ -18,8 +18,7 @@ factorial = num
 fac_print = ''
 fac_print += '{}'.format(num)
 
-i = num
-i -= 1
+i = num-1
 while i > 0:
 
     factorial *= i
