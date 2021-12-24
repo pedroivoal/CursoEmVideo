@@ -1,6 +1,7 @@
 from random import randint
 from colors import color
 
+# cores para texto 
 answer_col = color['blue']
 error_col = color['red']
 clean = color['clean']

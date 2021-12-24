@@ -1,9 +1,10 @@
 from colors import color
 
+# cores para texto 
 answer_col = color['blue']
 error_col = color['red']
-end_col = color['purple']
 clean = color['clean']
+
 num = int(input('\nDigite um número inteiro (Maior ou igual a 0): '))
 
 factorial = 1
