@@ -1,3 +1,9 @@
+# title = color_underline_bold['cyan']
+# answer_col = color['blue']
+# error_col = color['red']
+# end_col = color['purple']
+# clean = color['clean']
+
 color = {
     'clean': '\033[m',
     'black': '\033[30m',
@@ -32,4 +38,16 @@ color_underline = {
     'purple': '\033[4;35m',
     'cyan': '\033[4;36m',
     'white': '\033[4;37m'
+}
+
+color_underline_bold = {
+    'clean': '\033[m',
+    'black': '\033[1;4;30m',
+    'red': '\033[1;4;31m',
+    'green': '\033[1;4;32m',
+    'yellow': '\033[1;4;33m',
+    'blue': '\033[1;4;34m',
+    'purple': '\033[1;4;35m',
+    'cyan': '\033[1;4;36m',
+    'white': '\033[1;4;37m'
 }

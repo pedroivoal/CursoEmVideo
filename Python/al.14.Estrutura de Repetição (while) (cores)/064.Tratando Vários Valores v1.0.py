@@ -1,6 +1,7 @@
-from colors import color, color_underline
+from colors import color, color_underline_bold
 
-title = color_underline['green']
+# cores para texto 
+title = color_underline_bold['cyan']
 answer_col = color['blue']
 error_col = color['red']
 end_col = color['purple']

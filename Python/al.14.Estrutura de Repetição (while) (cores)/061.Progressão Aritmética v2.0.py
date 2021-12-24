@@ -1,6 +1,7 @@
-from colors import color, color_underline
+from colors import color, color_underline_bold
 
-title = color_underline['green']
+# cores para texto 
+title = color_underline_bold['cyan']
 answer_col = color['blue']
 error_col = color['red']
 end_col = color['purple']
@@ -18,7 +19,7 @@ while i < 10:
 
     i += 1
 
-rp += ')'
+rp += ', ...)'
 
 print('\n{1}{0}{2}\n'.format(rp, answer_col, clean))
 print('\n{0}Fim do programa{1}\n'.format(end_col, clean))
