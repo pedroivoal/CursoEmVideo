@@ -2,7 +2,6 @@ from colors import color
 
 answer_col = color['blue']
 error_col = color['red']
-end_col = color['purple']
 clean = color['clean']
 
 sex = input('\nDigite seu sexo [M/F]: ').strip().upper()

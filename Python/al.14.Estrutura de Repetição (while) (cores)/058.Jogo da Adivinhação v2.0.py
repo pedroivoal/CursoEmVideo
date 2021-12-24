@@ -3,7 +3,6 @@ from colors import color
 
 answer_col = color['blue']
 error_col = color['red']
-end_col = color['purple']
 clean = color['clean']
 
 print('\nAdvinhe o número sorteado (0 à 10)')
@@ -15,7 +14,12 @@ num_us = int(input('Digite um número: '))
 tentativas = 1
 while num_al != num_us:
 
-    print('{}Número incorreto, tente novamente.{}\n'.format(error_col, clean))
+    if num_us not in range(0, 11):
+        print('{}Digite um número inteiro no intervalo [0, 10].{}\n'.format(error_col, clean))
+    elif num_us < num_al:
+        print('{1}tente um número maior que {0}.{2}\n'.format(num_us, error_col, clean))
+    elif num_us > num_al:
+        print('{1}tente um número menor que {0}.{2}\n'.format(num_us, error_col, clean))
 
     num_us = int(input('Digite um número: '))
     tentativas += 1
