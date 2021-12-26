@@ -57,7 +57,7 @@ while True and i == 's':
         break
 
 
-print(f'\n{answer_col}Gastos totais: {Sum}')
-print(f'Total de produtos que custavam mais que 1000 R$: {num_expensive_product}')
-print(f'Produto mais barato: {most_cheap_name}, que custou {most_cheap_price} R$.{clean}')
+print(f'\n{answer_col}Gastos totais: R$ {Sum:.2f}')
+print(f'Total de produtos que custavam mais que R$ 1000: {num_expensive_product}')
+print(f'Produto mais barato: {most_cheap_name}, que custou R$ {most_cheap_price:.2f}{clean}')
 print(f'\n{end_col}Fim do programa{clean}\n')
