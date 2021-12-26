@@ -34,7 +34,15 @@ color_bold = {
     'blue': '\033[1;34m',
     'purple': '\033[1;35m',
     'cyan': '\033[1;36m',
-    'white': '\033[1;37m'
+    'light gray': '\033[1;37m',
+    'dark gray2': '\033[1;90m',
+    'light red': '\033[1;91m',
+    'light green': '\033[1;92m',
+    'light yellow': '\033[1;93m',
+    'light blue': '\033[1;94m',
+    'light purple': '\033[1;95m',
+    'light cyan': '\033[1;96m',
+    'white': '\033[1;97m',
 }
 
 color_underline = {
@@ -46,7 +54,15 @@ color_underline = {
     'blue': '\033[4;34m',
     'purple': '\033[4;35m',
     'cyan': '\033[4;36m',
-    'white': '\033[4;37m'
+    'light gray': '\033[4;37m',
+    'dark gray': '\033[4;90m',
+    'light red': '\033[4;91m',
+    'light green': '\033[4;92m',
+    'light yellow': '\033[4;93m',
+    'light blue': '\033[4;94m',
+    'light purple': '\033[4;95m',
+    'light cyan': '\033[4;96m',
+    'white': '\033[4;97m',
 }
 
 color_underline_bold = {
@@ -58,5 +74,13 @@ color_underline_bold = {
     'blue': '\033[1;4;34m',
     'purple': '\033[1;4;35m',
     'cyan': '\033[1;4;36m',
-    'white': '\033[1;4;37m'
+    'light gray': '\033[1;4;37m',
+    'dark gray2': '\033[1;4;90m',
+    'light red': '\033[1;4;91m',
+    'light green': '\033[1;4;92m',
+    'light yellow': '\033[1;4;93m',
+    'light blue': '\033[1;4;94m',
+    'light purple': '\033[1;4;95m',
+    'light cyan': '\033[1;4;96m',
+    'white': '\033[1;4;97m',
 }
