@@ -7,7 +7,8 @@ error_col = color['red']
 end_col = color['purple']
 clean = color['clean']
 
-print(f'\n{title}Caixa eletrônico{clean}\n')
+t = (f'{title}Caixa Eletrônico{clean}')
+print('\n{:^50}\n'.format(t))
 
 value = int(input(f'Digite o valor que deseja sacar: {typed_col}'))
 print(end = f'{clean}\n')
@@ -20,10 +21,12 @@ n10 = value//10
 value -= n10*10
 n1 = value//1
 
-print(f'''{answer_col}
-Cédulas a serem entregues
-Cédulas 50: {n50}
-Cédulas 20: {n20}
-Cédulas 10: {n10}
-Cédulas 1: {n1}
-''')
+print(f'{answer_col}Cédulas a serem entregues{clean}')
+if n50 > 0:
+    print(f'{answer_col}Cédulas de R$ 50: {n50}{clean}')
+if n20 > 0:
+    print(f'{answer_col}Cédulas de R$ 20: {n20}{clean}')
+if n10 > 0:
+    print(f'{answer_col}Cédulas de R$ 10: {n10}{clean}')
+if n1 > 0:
+    print(f'{answer_col}Cédulas de R$ 1: {n1}{clean}')
