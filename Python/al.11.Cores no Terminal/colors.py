@@ -14,8 +14,8 @@ color = {
     'blue': '\033[34m',
     'purple': '\033[35m',
     'cyan': '\033[36m',
-    'light grey': '\033[37m',
-    'dark grey': '\033[90m',
+    'light gray': '\033[37m',
+    'dark gray': '\033[90m',
     'light red': '\033[91m',
     'light green': '\033[92m',
     'light yellow': '\033[93m',
@@ -27,7 +27,7 @@ color = {
 
 color_bold = {
     'clean': '\033[m',
-    'grey': '\033[1;30m',
+    'dark gray': '\033[1;30m',
     'red': '\033[1;31m',
     'green': '\033[1;32m',
     'yellow': '\033[1;33m',
@@ -51,7 +51,7 @@ color_underline = {
 
 color_underline_bold = {
     'clean': '\033[m',
-    'black': '\033[1;4;30m',
+    'dark gray': '\033[1;4;30m',
     'red': '\033[1;4;31m',
     'green': '\033[1;4;32m',
     'yellow': '\033[1;4;33m',
