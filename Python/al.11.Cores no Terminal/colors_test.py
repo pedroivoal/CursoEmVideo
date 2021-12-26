@@ -6,17 +6,39 @@ underline = color_underline['white']
 underline_bold = color_underline_bold['white']
 
 print(f'\n\nNomal Colors\n')
+i = 1
 for key, value in color.items():
-    print(f'{value}{key}{clean}')
+    space = ' ' * (18-len(key)-len(str(i)))
+    print(f'{i}-{value}{key}{clean};{space}', end = '')
+    if i % 3 == 0:
+        print('')
+    i += 1
 
-print(f'\n\n{bold}Bold Colors{clean}\n')
+print(f'\n\n\n{bold}Bold Colors{clean}\n')
+i = 1
 for key, value in color_bold.items():
-    print(f'{value}{key}{clean}')
+    space = ' ' * (18-len(key)-len(str(i)))
+    print(f'{i}-{value}{key}{clean}{space}', end = '')
+    if i % 3 == 0:
+        print()
+    i += 1
 
-print(f'\n\n{underline}Bold Colors{clean}\n')
+print(f'\n\n\n{underline}Undeline Colors{clean}\n')
+i = 1
 for key, value in color_underline.items():
-    print(f'{value}{key}{clean}')
+    space = ' ' * (18-len(key)-len(str(i)))
+    print(f'{i}-{value}{key}{clean};{space}', end = '')
+    if i % 3 == 0:
+        print()
+    i += 1
 
-print(f'\n\n{underline_bold}Bold Colors{clean}\n')
+print(f'\n\n\n{underline_bold}Underline Bold Colors{clean}\n')
+i = 1
 for key, value in color_underline_bold.items():
-    print(f'{value}{key}{clean}')
+    space = ' ' * (18-len(key)-len(str(i)))
+    print(f'{i}-{value}{key}{clean};{space}', end = '')
+    if i % 3 == 0:
+        print()
+    i += 1
+
+print('\n')
