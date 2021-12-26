@@ -8,8 +8,7 @@ clean = color['clean']
 print(f'\n{title}Contador e Somador de Números{clean}\n')
 print('Digite 999 para finalizar o programa\n')
 
-Sum = 0
-i = 0
+Sum = i = 0
 while True:
 
     n = float(input(f'Digite um número: {typed_col}'))
