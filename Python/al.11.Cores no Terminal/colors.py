@@ -1,7 +1,8 @@
 # title = color_underline_bold['cyan']
 # typed_col = color['green']
 # answer_col = color['blue']
-# error_col = color['red']
+# fale_col = color['red']
+# error_col = color_underline['red']
 # end_col = color['purple']
 # clean = color['clean']
 

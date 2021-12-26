@@ -1,10 +1,11 @@
-from colors import color, color_underline_bold
+from colors import color,color_underline, color_underline_bold
 from random import randint
 
 title = color_underline_bold['cyan']
 typed_col = color['green']
 answer_col = color['blue']
-error_col = color['red']
+fale_col = color['red']
+error_col = color_underline['red']
 end_col = color['purple']
 clean = color['clean']
 
@@ -40,7 +41,7 @@ while True:
         print(f'\n{answer_col}Você venceu.{clean}\n')
         i += 1
     else:
-        print(f'\n{error_col}Você perdeu.{clean}\n')
+        print(f'\n{fale_col}Você perdeu.{clean}\n')
         break
 
 # Resutados finais
