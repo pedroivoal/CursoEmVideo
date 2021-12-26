@@ -12,6 +12,7 @@ clean = color['clean']
 print(f'\n{title}Par ou Ímpar{clean}\n')
 
 i = 0
+# Loop principal
 while True:
 
     move = input(f'Escolha, par[p] ou ímpar[i]: {typed_col}').strip().lower()
@@ -19,7 +20,7 @@ while True:
 
     # Garante que valor digitado foi valido
     while move != 'p' and move != 'i':
-        print('\n{}Valor não aceito.{}'.format(error_col, clean))
+        print(f'{error_col}Valor inválido.{clean}\n')
         move = input(f'Escolha, par[p] ou ímpar[i]: {typed_col}').strip().lower()
         print(end = f'{clean}')
 
