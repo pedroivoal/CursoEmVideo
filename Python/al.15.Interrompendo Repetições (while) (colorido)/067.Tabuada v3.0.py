@@ -18,10 +18,7 @@ while True:
     if n < 0:
         break
 
-    i = 1
-    while i < 11:
-
+    for i in range(1, 11):
         print(f'{answer_col}{n} x {i} = {n*i}{clean}')
-        i += 1
 
 print(f'\n{end_col}Fim do programa.{clean}\n')
