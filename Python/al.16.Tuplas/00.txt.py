@@ -26,7 +26,9 @@ print(ab)
 print(ba)
 
 # L = lista qualquer
-# L.count()
-# L.index()
-# L.find()
+# L.count('something')
+# L.index('something')
+# L.find('something')
 # del(L)
+# sorted(L)
+# len(L)
