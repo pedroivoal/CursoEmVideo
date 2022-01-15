@@ -38,4 +38,4 @@ while True:
     if c == 'n':
         break
 
-print(f'{end_col}Fim do programa{clean}')
+print(f'\n{end_col}Fim do programa{clean}\n')
